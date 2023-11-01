@@ -45,6 +45,9 @@ int close(int fd); fd :file descriptor
 
 ```
 ### 4.Read:
+From the file indicated by the file descriptor fd, the read() function reads cnt bytes of input into the memory area indicated by buf. A successful read() updates the access time for the file.
+
+
 ### Syntax:
 ```
 int read(int fd, char *buf, int size);
